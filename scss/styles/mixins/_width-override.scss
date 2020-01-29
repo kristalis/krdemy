@@ -1,0 +1,13 @@
+// create responsive classes to override max widths
+@each $breakpoint in map-keys($grid-breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+    @include media-breakpoint-down($breakpoint) {
+        .mw#{$infix}-upper-100 {
+            max-width: 100% !important;
+        }
+    }
+    @include media-breakpoint-up($breakpoint) {
+
+      .mw#{$infix}-100   { max-width:100% !important; }
+    }
+  }

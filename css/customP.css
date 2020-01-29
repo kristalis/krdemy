@@ -1,0 +1,325 @@
+.bg-teal {
+  background-color: #3EB9C6; }
+
+.bg-orange {
+  background-color: #FF8E1B; }
+
+.text-green {
+  color: green; }
+
+.font-24 {
+  font-size: 24px; }
+
+nav {
+  height: 80px; }
+
+header.basehead {
+  height: 100vh;
+  min-height: 40rem;
+  padding-top: 72px;
+  padding-bottom: 0;
+  background-color: #088696;
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/Image_10.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }
+
+header.basehead h1 {
+  font-size: 2.25rem; }
+
+#mainNav.navbar-scrolled {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #fff; }
+
+#mainNav.navbar-scrolled .navbar-brand {
+  color: #212529; }
+
+#mainNav.navbar-scrolled .navbar-brand:hover {
+  color: #f4623a; }
+
+#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
+  color: #212529; }
+
+#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+  color: #f4623a; }
+
+#slider {
+  height: 100vh;
+  min-height: 400px;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1470434151738-dc5f4474c239?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb"); }
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%; }
+
+.carousel-indicators li {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: red; }
+
+#hero {
+  background-image: linear-gradient(181deg, rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0.76) 70%), url(https://skillshub.online/wp-content/uploads/2019/09/UberOU_HeroImage1.jpg);
+  height: 100vh;
+  background-position: center;
+  -webkit-background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: 100%;
+  -moz-background-size: cover;
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.hero-text {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#leadgen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -70px; }
+
+#leadgen .card {
+  width: 40%;
+  box-shadow: black 0px 10px 51px 3px;
+  border: 0px; }
+
+#leadgen .card .card-header {
+  padding: 40px 10%; }
+
+.form-group {
+  margin-bottom: 0.62rem; }
+
+#content {
+  color: black; }
+
+#content h1 {
+  box-shadow: 0 0 0 10px #088493;
+  background-color: #088696;
+  display: inline;
+  color: white;
+  padding-left: 0;
+  padding-right: 0;
+  -webkit-box-decoration-break: clone;
+  -ms-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+  line-height: 1.6; }
+
+/* Frequently Asked Questions Section
+--------------------------------*/
+#faq {
+  padding: 60px 0;
+  overflow: hidden; }
+
+#faq #faq-list {
+  padding: 0;
+  list-style: none; }
+
+#faq #faq-list li {
+  border-bottom: 1px solid #ebebeb; }
+
+#faq #faq-list a {
+  padding: 22px 0;
+  display: block;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 400;
+  padding-right: 20px;
+  color: #1bb1dc;
+  text-decoration: none; }
+
+#faq #faq-list i {
+  font-size: 36px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  color: #1bb1dc; }
+
+#faq #faq-list p {
+  margin-bottom: 20px; }
+
+#faq #faq-list a.collapse {
+  color: #1bb1dc; }
+
+#faq #faq-list a.collapsed {
+  color: #000; }
+
+#faq #faq-list a.collapsed i::before {
+  content: "\f101" !important; }
+
+/* Clients Section */
+#clients {
+  padding: 60px 0; }
+
+#clients img {
+  max-width: 80%;
+  opacity: 0.5;
+  transition: 0.3s;
+  padding: 15px 0; }
+
+#clients img:hover {
+  opacity: 1; }
+
+#clients .owl-nav,
+#clients .owl-dots {
+  margin-top: 5px;
+  text-align: center; }
+
+#clients .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd; }
+
+#clients .owl-dot.active {
+  background-color: #1bb1dc; }
+
+.section-header h3 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 40px 10px 40px; }
+
+.section-header p {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 10px;
+  width: 50%; }
+
+/* Clients Section */
+#services {
+  padding: 60px 0 40px 0; }
+
+#services .card {
+  /* box-shadow: rgba(0, 0, 0, 2) 0px 10px 51px 3px;*/
+  border: 0px;
+  padding: 0px; }
+
+#services .card-body {
+  padding-bottom: 60px; }
+
+/* Clients Section */
+#blog {
+  padding: 20px 0 40px 0; }
+
+#blog .card {
+  padding: 0px 0 0px 0;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+#blog .card-body {
+  padding-bottom: 60px; }
+
+#blog .card-body:hover {
+  background-color: orange; }
+
+.blogsectiontitle {
+  display: flex;
+  justify-content: space-between; }
+
+/* section testimonial */
+#testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -100px;
+  background-color: orange;
+  height: 350px; }
+
+/* section individual */
+#individual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -110px;
+  position: relative;
+  z-index: -1; }
+
+.bgindividual1 {
+  background-color: #ddf1bc;
+  min-height: 30vh;
+  background-position: center;
+  -webkit-background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: 100%;
+  -moz-background-size: cover;
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 999; }
+
+.bgindividual2 {
+  background-color: orange;
+  min-height: 30vh;
+  background-position: center;
+  -webkit-background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: 100%;
+  -moz-background-size: cover;
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.bgindividual3 {
+  background-color: green;
+  /*min-height: 40vh;*/
+  background-position: center;
+  -webkit-background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: 100%;
+  -moz-background-size: cover;
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.boxtext {
+  box-sizing: content-box;
+  padding: 30px;
+  border: 1px solid green; }
+
+.boxposition {
+  padding-right: 170px;
+  padding-left: 170px;
+  padding-top: 65px;
+  padding-bottom: 40px; }
+
+#contact .btn-primary {
+  color: #fff;
+  background-color: maroon;
+  border-color: maroon;
+  width: 120px;
+  border-radius: 25px; }
+
+#contact img {
+  margin-bottom: -70px;
+  margin-left: -55px; }
+
+footer {
+  height: 140px;
+  background-color: #dee2e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black; }
+
+@media (max-width: 992px) {
+  header.basehead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 72px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/Image_10.png"); } }

@@ -1,0 +1,24 @@
+
+// Font - Families
+$sample: 'sample', 'sans-serif';
+
+$fonts: (
+    'sample': $sample,
+);
+
+// Font - Sizes
+$font-sizes: (
+    16: '16px',
+    18: '18px',
+    20: '20px',
+    22: '22px',
+);
+
+// Colours
+$white: #ffffff;
+$black: #000000;
+
+$colors: (
+    'white': $white,
+    'black': $black,
+);
